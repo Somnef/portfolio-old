@@ -23,13 +23,13 @@ function Navbar(props) {
   return (
     <div className="flex w-full justify-center z-[1000]">
       <div
-        className={`navbar fixed items-center flex justify-around my-4 w-[80%] rounded-xl z-[1000] ${toggle ? "bg-white text-portfolio-dark" : "bg-transparent text-white"
+        className={`navbar fixed items-center flex md:justify-between justify-around my-4 w-[80%] rounded-xl z-[1000] ${toggle ? "bg-white text-portfolio-dark" : "bg-transparent text-white"
           }`}
         style={{
           transition: "0.2s ease-in-out",
         }}
       >
-        <h1 className="text-xl  font-bold z-[1000]">MySite</h1>
+        <h1 className="text-xl md:ml-7 font-bold z-[1000]">MySite</h1>
         <div className="navbar-end md:hidden">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -73,6 +73,7 @@ function Navbar(props) {
             </ul>
           </div>
         </div>
+        
         <div className=" hidden lg:flex z-[1000]">
           <ul className="flex flex-row gap-x-7">
             <li >
@@ -95,8 +96,10 @@ function Navbar(props) {
             </li>
 
           </ul>
-          <button
-            className={` px-8 py-3 rounded-xl ml-12 font-bold  ${toggle
+          
+        </div>
+        <button
+            className={` px-8 py-3 hidden md:inline rounded-xl ml-12 font-bold  ${toggle
                 ? "bg-portfolio-dark text-white"
                 : "text-portfolio-dark bg-white"
               }`}
@@ -104,9 +107,8 @@ function Navbar(props) {
               transition: "0.2s ease-in-out",
             }}
           >
-            Resume
+           My Resume
           </button>
-        </div>
       </div>
     </div>
   );

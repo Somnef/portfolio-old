@@ -1,9 +1,14 @@
 import React, { useState } from "react";
+import Image from 'next/image'
 
 function ProjectCard2({ title, description, repo, tech, image, funct }) {
   return (
     <div className="flex flex-col gap-4">
-      <img src={image} alt="qsd" />
+      <Image
+      height={350}
+      width={500}
+      src={image} alt="qsd" />
+      
       <h1 className="text-xl font-bold ">{title}</h1>
       <p className="line-clamp-2">{description}</p>
       <div className="flex gap-5">

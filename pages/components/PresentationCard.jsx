@@ -3,7 +3,7 @@ import React from "react";
 function PresentationCard(props) {
     return (
         <div className="flex flex-col">
-            <h1 className="text-white font-bold text-2xl">
+            <h1 className="text-white font-bold md:text-2xl text-xl">
                 {props.title}
             </h1>
             <div className="flex w-[80%] h-[1px] bg-portfolio-light my-3"></div>

@@ -78,7 +78,6 @@ html {
   width: 50vh;
   position: fixed;
   font-size: 16px;
-  font-weight: 700;
   letter-spacing: 5px;
   transform-origin: 0 0;
   transform: rotate(-90deg) translateX(-100px);
@@ -145,4 +144,38 @@ html {
 .cross{
   position: absolute;
   right: 0;
+}
+
+
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  pointer-events: none;
+  transition: 0.3s ease-in-out;
+}
+.modal.active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.modal__content {
+  position: relative;
+  transition: inherit;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(-100px);
+}
+.modal.active .modal__content {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  pointer-events: auto;
 }

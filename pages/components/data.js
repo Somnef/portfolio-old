@@ -7,7 +7,7 @@ export const items = [
       " Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore?",
     repo: "/qsdsqdsq",
     type:"Data Science",
-    image: "images/computer.jpg",
+    image: "/images/computer.jpg",
     tech: ["python", "sklearn", "Keras"],
   },
   // Photo by Dennis Brendel on Unsplash
@@ -18,7 +18,7 @@ export const items = [
       " Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore? Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore? Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore? Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore? Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore?",
     repo: "/qsdsqdsq",
     type:"Data Science",
-    image: "images/computer.jpg",
+    image: "/images/computer.jpg",
     tech: ["python", "sklearn", "Keras"],
   },
   // Photo by Alessandra Caretto on Unsplash
@@ -29,7 +29,7 @@ export const items = [
     description:
       " Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore?",
     repo: "/qsdsqdsq",
-    image: "images/computer.jpg",
+    image: "/images/computer.jpg",
     tech: ["python", "sklearn", "Keras"],
   },
   // Photo by Taneli Lahtinen on Unsplash
@@ -40,7 +40,7 @@ export const items = [
     description:
       " Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore?",
     repo: "/qsdsqdsq",
-    image: "images/computer.jpg",
+    image: "/images/computer.jpg",
     tech: ["python", "sklearn", "Keras"],
   },
   // Photo by Simone Hutsch on Unsplash
@@ -51,7 +51,7 @@ export const items = [
     description:
       " Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore?",
     repo: "/qsdsqdsq",
-    image: "images/computer.jpg",
+    image: "/images/computer.jpg",
     tech: ["python", "sklearn", "Keras"],
   },
   // Photo by Siora Photography on Unsplash
@@ -62,7 +62,7 @@ export const items = [
     description:
       " Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore?",
     repo: "/qsdsqdsq",
-    image: "images/computer.jpg",
+    image: "/images/computer.jpg",
     tech: ["python", "sklearn", "Keras"],
   },
   // Photo by Yerlin Matu on Unsplash
@@ -73,7 +73,7 @@ export const items = [
     description:
       " Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore?",
     repo: "/qsdsqdsq",
-    image: "images/computer.jpg",
+    image: "/images/computer.jpg",
     tech: ["python", "sklearn", "Keras"],
   },
   // Photo by Ali Abdul Rahman on Unsplash
@@ -84,7 +84,7 @@ export const items = [
     description:
       " Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore?",
     repo: "/qsdsqdsq",
-    image: "images/computer.jpg",
+    image: "/images/computer.jpg",
     tech: ["python", "sklearn", "Keras"],
   },
 ];

@@ -13,7 +13,6 @@ import NavLink2 from "./components/Navlink2";
 
 function Projects(props) {
   const [toggler, setToggler] = useState(false);
-  const [modalShown, setModel] = useState(false);
   const [render, setRender] = useState(false);
 
   const [selectedItem, setSelectedItem] = useState({
@@ -35,7 +34,7 @@ function Projects(props) {
 
   useEffect(() => {
     setRender(true);
-  });
+  },[]);
 
   const [showModal, setShowModal] = useState(false);
 
@@ -55,7 +54,7 @@ function Projects(props) {
             <div className="w-[80%] flex flex-col items-center ml-14">
               <h1 className="text-7xl font-bold mt-10">My Projects</h1>
               <h2 className="text-gray-400 py-8 text-lg">
-                Here are a few projects I've worked on recently in my two fields
+                Here are a few projects I&apos;ve worked on recently in my two fields
               </h2>
               <div className="flex mb-16 gap-10 mt-10 text-2xl font-bold relative overflow-hidden w-full justify-center ">
                 <NavLink2

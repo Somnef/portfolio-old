@@ -14,9 +14,9 @@ function MyApp({ Component, pageProps }) {
       </header>
       <ParticlesJs />
 
-      <div className=" text-white flex flex-col justify-center h-full absolute">
-        <h1 className="Name top-[25%] ml-10">Kimouche Rayane</h1>
-        <div className="text-xl flex flex-col gap-4 fixed top-[47%] ml-7">
+      <div className=" text-white flex flex-col justify-center h-full absolute ">
+        <h1 className="Name font-[700] top-[25%] ml-10">Kimouche Rayane</h1>
+        <div className="text-xl flex flex-col mt-10 md:mt-0 sm:gap-4 gap-6 fixed top-[47%] ml-7">
           <SocialMedia Component={GrLinkedinOption} />
           <SocialMedia Component={GrGithub} />
           <SocialMedia Component={GrInstagram} />
