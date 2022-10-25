@@ -6,6 +6,10 @@ import ExpericenceComponent from "./components/expericenceComponent";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Link from "next/link";
+import SocialMedia from "./components/socialMedia";
+import { GrFacebookOption, GrGithub, GrInstagram, GrLinkedinOption } from "react-icons/gr";
+import { SiDiscord } from "react-icons/si";
 
 function Home(props) {
   useEffect(() => {
@@ -18,7 +22,7 @@ function Home(props) {
   return (
     <div>
       <section className="w-full flex justify-center">
-        <div className="container flex flex-col gap-10 mt-52 w-[80%]  md:ml-14 ml-24 text-center md:text-left">
+        <div className="container flex flex-col items-center sm:items-start gap-10 mt-52 w-[80%]  md:ml-14 sm:ml-24 text-center md:text-left">
           <h1 className="md:text-8xl text-7xl text-white font-extrabold">
             Hey, I&apos;m Moncef{" "}
             <span style={{ color: "rgba(74, 100, 160, 1)" }}>!</span>
@@ -26,11 +30,18 @@ function Home(props) {
           <h2 className=" sm:text-4xl text-3xl text-[#999999]">
             {"Data Science & AI student, Web  developper"}
           </h2>
+          <div className="text-xl  sm:hidden flex justify-center mt-10  gap-6 ">
+          <SocialMedia Component={GrLinkedinOption} url='https://www.google.dz/'/>
+          <SocialMedia Component={GrGithub} url='https://www.google.dz/' />
+          <SocialMedia Component={GrInstagram}  url='https://www.google.dz/'/>
+          <SocialMedia Component={SiDiscord} url='https://www.google.dz/'/>
+          <SocialMedia Component={GrFacebookOption} url='https://www.google.dz/'/>
+        </div>
         </div>
       </section>
 
       <section id="about" className="w-full flex  justify-center sm:mt-48 mt-24">
-        <div className="flex flex-col md:flex-row gap-10 md:w-[80%] w-full  md:ml-14 ml-20 items-center">
+        <div className="flex flex-col md:flex-row gap-10 md:w-[80%] w-full  md:ml-14 sm:ml-20 items-center">
           <div className="rounded-full  md:w-1/5 w-3/5 aspect-square">
             <Image
               width={500}
@@ -54,7 +65,7 @@ function Home(props) {
       </section>
 
       <section id="education" className="w-full flex flex-col items-center">
-        <div className="flex flex-col mt-5 w-[80%]  ml-14">
+        <div className="flex flex-col mt-5 w-[80%]  md:ml-14 sm:ml-20">
           <div className="mt-28 flex md:flex-row flex-col md:items-start items-center">
             <div className="flex text-white text-4xl font-bold mt-6 w-2/5 my-16 md:my-0">
               <h1 className=" h-max ">Education</h1>
@@ -139,7 +150,7 @@ function Home(props) {
       </section>
 
       <section id="experiences" className="w-full flex flex-col items-center mt-16 md:mt-0">
-        <div className="w-[80%] flex flex-col  ml-14 ">
+        <div className="w-[80%] flex flex-col  md:ml-14 sm:ml-20">
           <h1 className="text-4xl font-bold md:border-b-4 md:py-3 py-6 text-center md:text-left">experiences</h1>
           <div className="flex flex-col items-center">
             <ExpericenceComponent
@@ -161,7 +172,7 @@ function Home(props) {
       </section>
 
       <section id="skills" className="w-full flex flex-col items-center mt-10">
-        <div className="w-[80%] ml-14 ">
+        <div className="w-[80%] md:ml-14 sm:ml-20 ">
           <h1 className="text-4xl font-bold md:border-b-4 md:py-3 py-5 text-center md:text-left">
             skills & expertise
           </h1>
@@ -401,7 +412,7 @@ function Home(props) {
         id="porfolio"
         className="w-full flex flex-col items-center mt-10"
       >
-        <div className="w-[80%]  ml-14">
+        <div className="w-[80%]  md:ml-14 sm:ml-20">
           <h1 className="text-4xl font-bold md:border-b-4 md:py-3 py-6 mb-8 text-center md:text-left">
             My portfolio
           </h1>
@@ -415,15 +426,16 @@ function Home(props) {
             <ProjectCard title="Machine Learning" repo="" details="" />
           </div>
           <div className="w-full flex justify-center items-center my-12">
-            <a
+            <button
               href="ze"
               className="bg-white text-portfolio-dark rounded-lg px-6 py-3 text-2xl font-bold hover:bg-black border-[1px] border-b-4  hover:border-portfolio-light border-white hover:text-white"
               style={{
                 transition: "0.3s ease-out",
               }}
             >
-              Show more
-            </a>
+              <Link href='projects'>Show more</Link>
+              
+            </button>
           </div>
         </div>
       </section>
