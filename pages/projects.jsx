@@ -74,7 +74,7 @@ function Projects(props) {
 
           <section className="w-full flex justify-center">
             <div className="w-[80%] gap-5 sm:ml-14 flex justify-center">
-              <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols  w-[80%] sm:w-full gap-x-5 gap-y-16 mb-16">
+              <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols  w-[80%] sm:w-full gap-x-5 gap-y-16 mb-16 ">
                 {items.filter(el => toggler === false ? el.type === "Data Science" : el.type === "Web Dev").map((el) =>
 
                 (

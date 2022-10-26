@@ -179,3 +179,6 @@ html {
   transform: translateY(0);
   pointer-events: auto;
 }
+.nn{
+bottom: 0;
+}
