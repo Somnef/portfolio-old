@@ -1,5 +1,4 @@
 import { useEffect, useRef } from "react";
-import "./modal.module.scss";
 import { IoClose } from "react-icons/io5";
 
 function Modal2(props) {

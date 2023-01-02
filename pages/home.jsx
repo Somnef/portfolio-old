@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
-import PresentationCard from "./components/PresentationCard";
-import ProjectCard from "./components/ProjectCard";
+import PresentationCard from "../components/PresentationCard";
+import ProjectCard from "../components/ProjectCard";
 import { BiArrowToBottom } from "react-icons/bi";
-import ExpericenceComponent from "./components/expericenceComponent";
+import ExpericenceComponent from "../components/expericenceComponent";
 import AOS from "aos";
-import { items } from "./components/data";
-import ProjectCard2 from "./components/ProjectCard2";
-import Modal2 from "./components/modal/Modal2";
+import ProjectCard2 from "../components/ProjectCard2";
+import Modal2 from "../components/modal/Modal2";
 import "aos/dist/aos.css";
+import { items } from "../components/data";
 
 function Home(props) {
 	useEffect(() => {
@@ -49,13 +49,13 @@ function Home(props) {
 	const [showModal, setShowModal] = useState(false);
 
 	return (
-		<div className={`flex items-center justify-center ${showModal ? "overflow-hidden" : ""}`}>
+		<div className={`flex items-center justify-center`}>
 			<Modal2
 				show={showModal}
 				setShowModal={setShowModal}
 				item={selectedItem}
 			/>
-			<div class="w-[90%]">
+			<div className="w-[90%]">
 				<section className="w-full flex justify-center">
 					<div className="flex flex-row items-center gap-10 mt-52 w-[80%]  ml-14">
 						<img
@@ -66,7 +66,7 @@ function Home(props) {
 
 						<div className="container flex flex-col gap-5">
 							<h1 className="text-7xl text-white font-extrabold">
-								Hey, I'm {" "}
+								Hey, I&apos;m {" "}
 								<span style={{ color: "rgba(74, 100, 160, 1)" }}>Moncef</span>!
 							</h1>
 

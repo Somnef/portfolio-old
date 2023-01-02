@@ -1,7 +1,7 @@
 import '../styles/globals.css';
-import Navbar from './components/Navbar';
-import ParticlesJs from "./components/snow";
-import SocialMedia from "./components/socialMedia";
+import Navbar from '../components/Navbar';
+import ParticlesJs from "../components/snow";
+import SocialMedia from "../components/socialMedia";
 import { GrFacebookOption, GrGithub, GrInstagram, GrLinkedinOption } from "react-icons/gr";
 import { SiDiscord } from "react-icons/si";
 
