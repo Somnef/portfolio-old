@@ -1,6 +1,6 @@
 .modal {
-    opacity: 0;
-    visibility: hidden;
+    opacity: 0.5;
+    visibility: visible;
     position: fixed;
     left: 0;
     top: 0;
@@ -36,9 +36,9 @@
         pointer-events: auto;
     }
 
-    // &__header,
-    // &__body,
-    // &__footer {
-    //     padding: 16px 20px;
-    // }
+    &__header,
+    &__body,
+    &__footer {
+        padding: 16px 20px;
+    }
 }

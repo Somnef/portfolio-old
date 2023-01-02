@@ -21,15 +21,15 @@ function Navbar(props) {
   });
 
   return (
-    <div className="flex w-full justify-center z-[1000]">
+    <div className="flex w-full justify-center z-[10]">
       <div
-        className={`navbar fixed items-center flex justify-around my-4 w-[80%] rounded-xl z-[1000] ${toggle ? "bg-white text-portfolio-dark" : "bg-transparent text-white"
+        className={`navbar fixed items-center flex justify-around my-4 w-[80%] rounded-xl z-[10] ${toggle ? "bg-white text-black" : "bg-transparent text-white"
           }`}
         style={{
           transition: "0.2s ease-in-out",
         }}
       >
-        <h1 className="text-xl  font-bold z-[1000]">MySite</h1>
+        <h1 className="text-xl  font-bold z-[10]">Portfolio</h1>
         <div className="navbar-end md:hidden">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">

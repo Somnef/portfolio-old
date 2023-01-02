@@ -1,90 +1,46 @@
 export const items = [
-  // Photo by ivan Torres on Unsplash
   {
     id: 1,
-    title: "Machine Learning",
+    title: "Self-learning Snake agents",
     description:
-      " Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore?",
+      "In this project, I worked on writing my own version of the snake game, where I have control over all of what's happening,\
+      which then enabled me to write self-learning snake agents on top of it, the algorithm I used for these agents is called NEAT \
+      (Neuro-Evolution of Augmenting Topologies), which is quite popular when writing self-learning game-agents. The way this\
+      algorithm works is by evolving very basic neural networks through an evolutionary approach.",
     repo: "/qsdsqdsq",
     type:"Data Science",
-    image: "images/computer.jpg",
-    tech: ["python", "sklearn", "Keras"],
+    image: "images/projects/snake/snake.gif",
+    image2: "images/projects/snake/snake2.gif",
+    tech: "Python, Pygame, Python-Neat",
   },
+
   // Photo by Dennis Brendel on Unsplash
   {
     id: 2,
-    title: "Data Scraping",
+    title: "Wildfire spread prediction",
     description:
-      " Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore? Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore? Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore? Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore? Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore?",
+      "Along my team mates, we developed a solution which uses Google Earth's satellite imagery in order to reproduce real-life\
+      3D landscapes in Unity game engine (taking into account height, wind and vegetation data), and then predicts how wildfire\
+      would spread giving an initial ignite position.",
     repo: "/qsdsqdsq",
     type:"Data Science",
-    image: "images/computer.jpg",
-    tech: ["python", "sklearn", "Keras"],
+    image: "images/projects/wildfire/wildfire.gif",
+    image2: "images/projects/wildfire/wildfire2.gif",
+    tech: "Google Earth Engine's API, Unity, Python, Scikit-learn",
   },
   // Photo by Alessandra Caretto on Unsplash
   {
     id: 3,
-    title: "Computer Vision",
+    title: "Focus monitor",
     type:"Data Science",
     description:
-      " Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore?",
+      "During the Google DevFest hackathon, me and my team worked on developing a focus monitor which follows the computer users'\
+      movements and facial features in order to determine whether they are focused or not, and produce a reliable data storage and\
+      monitoring tool regarding that person, but that I think about it, if we were to use that in corporations, it would be kinda\
+      scary, right ?!",
     repo: "/qsdsqdsq",
-    image: "images/computer.jpg",
-    tech: ["python", "sklearn", "Keras"],
-  },
-  // Photo by Taneli Lahtinen on Unsplash
-  {
-    id: 4,
-    title: "Machine Learning",
-    type:"Data Science",
-    description:
-      " Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore?",
-    repo: "/qsdsqdsq",
-    image: "images/computer.jpg",
-    tech: ["python", "sklearn", "Keras"],
-  },
-  // Photo by Simone Hutsch on Unsplash
-  {
-    id: 5,
-    title: "Business Game",
-    type:"Web Dev",
-    description:
-      " Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore?",
-    repo: "/qsdsqdsq",
-    image: "images/computer.jpg",
-    tech: ["python", "sklearn", "Keras"],
-  },
-  // Photo by Siora Photography on Unsplash
-  {
-    id: 6,
-    title: "IEC Official Web site",
-    type:"Web Dev",
-    description:
-      " Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore?",
-    repo: "/qsdsqdsq",
-    image: "images/computer.jpg",
-    tech: ["python", "sklearn", "Keras"],
-  },
-  // Photo by Yerlin Matu on Unsplash
-  {
-    id: 7,
-    title: "TEDX site",
-    type:"Web Dev",
-    description:
-      " Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore?",
-    repo: "/qsdsqdsq",
-    image: "images/computer.jpg",
-    tech: ["python", "sklearn", "Keras"],
-  },
-  // Photo by Ali Abdul Rahman on Unsplash
-  {
-    id: 8,
-    title: "Deep Learning",
-    type:"Data Science",
-    description:
-      " Lorem ipsum dolor sit amet, consectetur adipisicing elit.,Temporibus minima et dolorum ipsa possimus error deleniti acumque illo, accusantium quos eaque numquam sunt ea ipsamtium quos eaque numquam sunt ea ipsam excepturi esse fugiat tempore?",
-    repo: "/qsdsqdsq",
-    image: "images/computer.jpg",
+    image: "images/projects/focus/focus.gif",
+    image2: "images/projects/focus/focus2.gif",
     tech: ["python", "sklearn", "Keras"],
   },
 ];
