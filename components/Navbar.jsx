@@ -95,17 +95,6 @@ function Navbar(props) {
             </li>
 
           </ul>
-          <button
-            className={` px-8 py-3 rounded-xl ml-12 font-bold  ${toggle
-                ? "bg-portfolio-dark text-white"
-                : "text-portfolio-dark bg-white"
-              }`}
-            style={{
-              transition: "0.2s ease-in-out",
-            }}
-          >
-            Resume
-          </button>
         </div>
       </div>
     </div>

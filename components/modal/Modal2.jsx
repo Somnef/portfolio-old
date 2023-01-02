@@ -4,11 +4,6 @@ import { IoClose } from "react-icons/io5";
 function Modal2(props) {
     const modalRef = useRef();
 
-    function handleClick(e) {
-        e.stopPropagation();
-        props.setShowModal(false);
-    }
-
     return (
         <div
             className={`fixed top-0 left-0 w-screen h-screen

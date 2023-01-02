@@ -7,7 +7,9 @@ import AOS from "aos";
 import ProjectCard2 from "../components/ProjectCard2";
 import Modal2 from "../components/modal/Modal2";
 import "aos/dist/aos.css";
+import Head from 'next/head';
 import { items } from "../components/data";
+
 
 function Home(props) {
 	useEffect(() => {
@@ -50,6 +52,11 @@ function Home(props) {
 
 	return (
 		<div className={`flex items-center justify-center`}>
+			<Head>
+				<title>Portfolio - BOUSSELAT Ahmed Moncef (Somnef)</title>
+				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+			</Head>
+
 			<Modal2
 				show={showModal}
 				setShowModal={setShowModal}
@@ -94,7 +101,7 @@ function Home(props) {
 				>
 					<div className="flex flex-col mt-5 w-[80%]  ml-14">
 						<h1 className="text-4xl font-bold border-b-4 py-3">Education</h1>
-						<div className="flex flex-col gap-5 mt-10">
+						<div className="flex flex-row gap-12 mt-10">
 							<PresentationCard
 								title={"Master's Degree in  Industrial Engineering"}
 								text={"2020-2023\nNational Polytechnic School"}
@@ -118,34 +125,34 @@ function Home(props) {
 						</h1>
 						<div className="flex flex-col items-center">
 							<ExpericenceComponent
-								period="November 2022 - Today"
+								period="Nov 2022 - Today"
 								company="Ericsson"
 								post="Data Scientist / AI Engineer intern"
 								description="Internship where I worked on understanding how networking occurs in IOT systems,
-							and how we can use deep learning techniques within them to boost efficiency and security."
+											and how we can use deep learning techniques within them to boost efficiency and security."
 							/>
 							<ExpericenceComponent
-								period="May 2022 - July 2022"
+								period="May 2022 - Jul 2022"
 								company="BH Advisory"
 								post="Jr Consultant / Data Analyst intern"
 								description="Internship where the mission consisted of monitoring the construction materials market in Algeria, 
-							study the price trends and quantities imported/exported over the last decade."
+											study the price trends and quantities imported/exported over the last decade."
 							/>
 							<ExpericenceComponent
-								period="December 2021 - Today"
+								period="Dec 2021 - Today"
 								company="Innoprofits"
 								post="Freelancer"
 								description="Studies of startup projects and highlighting the complexity of the technical aspects in which they
-				are trying to innovate."
+											are trying to innovate."
 							/>
 							<ExpericenceComponent
-								period="November 2021 - May 2022"
+								period="Nov 2021 - May 2022"
 								company="AiTech"
 								post="Data Scientist intern"
 								description="Research on processing, cleaning, classifying and detecting outliers in data drawn from the company's ERP."
 							/>
 							<ExpericenceComponent
-								period="February 2021 - March 2021"
+								period="Feb 2021 - Mar 2021"
 								company="CasbahTech"
 								post="Discovery intern"
 								description="Initiation to work in a company, introduction to web development and teamwork with AGILE methodology."
@@ -168,11 +175,11 @@ function Home(props) {
 										transition: "0.3s ease-in",
 									}}
 								>
-									<img src="./images/laptop.svg" alt="sqdsqd" className=" ss z-0 opacity-70" />
-									<h1 className="text-3xl mt-20 ml-14 font-bold z-10">
+									<img src="./images/laptop.svg" alt="sqdsqd" className=" ss z-[1] opacity-50" />
+									<h1 className="text-3xl mt-20 ml-14 font-bold z-[2]">
 										Programming Languages
 									</h1>
-									<h1 className="text-sm text-gray-200 text-justify mt-5 ml-[4rem] w-[75%] z-10">
+									<h1 className="text-sm text-gray-200 text-justify mt-5 ml-[4rem] w-[75%] z-[2]">
 										Here are the main programming languages I use on a regular basis for my different projects, some I use 
 										when working on data science projects, others in web development or game development:
 									</h1>
@@ -412,7 +419,7 @@ function Home(props) {
 				<section id="porfolio" className="w-full flex flex-col items-center mt-10">
 					<div className="w-[80%] gap-5 ml-14">
 						<h1 className="text-4xl font-bold border-b-4 py-3 mb-8">
-							My projects
+							My Projects
 						</h1>
 						<div className="grid grid-cols-3 gap-x-5 gap-y-16 mb-16">
 							{items.map((el) =>
@@ -424,6 +431,7 @@ function Home(props) {
 									type={el.type}
 									description={el.description}
 									repo={el.repo}
+									researchgate={el.researchgate}
 									image={el.image}
 									tech={el.tech}
 									funct={() => {
@@ -470,15 +478,6 @@ function Home(props) {
 										</h1>
 									</div>
 								</div>
-								<button
-									style={{ transition: "0.3s ease-out" }}
-									className="bg-white border-[1px] border-b-4 hover:translate-x-3 border-white hover:border-portfolio-light hover:bg-black hover:text-white text-black w-2/3 mt-12 rounded-lg py-3 flex items-center justify-between font-bold px-6"
-								>
-									Download Resume{" "}
-									<span className="text-bold text-2xl">
-										<BiArrowToBottom />
-									</span>
-								</button>
 							</div>
 							<div className="w-6/12 contact1">
 								<img
