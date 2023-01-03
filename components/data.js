@@ -87,6 +87,30 @@ export const items = [
 		image2: "images/projects/bg/bg2.webp",
 		tech: "Laravel, VueJs, SocketIO",
 	},
+
+	{
+		id: 7,
+		title: "Unity Camera Shaker",
+		type: "Data Science",
+		description:
+			"This is a project I developed as a utility tool for the Unity game engine, the displayed illustration is a small game\
+			I programmed along for the sake of showing the effect at play.",
+		repo: "https://github.com/Somnef/UnityCameraShaker",
+		image: "images/projects/camera_shaker/camera_shaker.gif",
+		image2: "images/projects/camera_shaker/camera_shaker2.gif",
+		tech: "Unity, C#",
+	},
+
+	{
+		id: 8,
+		title: "Small Battle RPGs",
+		type: "Data Science",
+		description:
+			"When I have time, I like to work on writing small RPGs with battle mechanics and cool pixel art designs!",
+		image: "images/projects/rpg/rpg.webp",
+		image2: "images/projects/rpg/rpg2.gif",
+		tech: "Unity, C#",
+	},
 ];
 
 export const openSpring = { type: "spring", stiffness: 200, damping: 30 };

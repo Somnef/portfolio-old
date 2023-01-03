@@ -44,6 +44,22 @@ function Home(props) {
 		setShowModal(true);
 	}
 
+	function closeModal() {
+		
+		setTimeout(function() {
+			setSelectedItem({
+				title: null,
+				description: null,
+				repo: null,
+				tech: null,
+				image: null,
+				image2: null,
+			});
+		}.bind(this), 300);
+
+		setShowModal(false);
+	}
+
 	useEffect(() => {
 		setRender(true);
 	});
@@ -60,7 +76,7 @@ function Home(props) {
 
 			<Modal2
 				show={showModal}
-				setShowModal={setShowModal}
+				closeModal={closeModal}
 				item={selectedItem}
 			/>
 			<div className="w-[90%]">
