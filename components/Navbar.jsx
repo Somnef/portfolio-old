@@ -29,7 +29,7 @@ function Navbar(props) {
           transition: "0.2s ease-in-out",
         }}
       >
-        <h1 className="text-xl  font-bold z-[10]">Portfolio</h1>
+        {/* <h1 className="text-xl  font-bold z-[10]">Portfolio</h1> */}
         <div className="navbar-end md:hidden">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">

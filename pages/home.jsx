@@ -54,6 +54,7 @@ function Home(props) {
 		<div className={`flex items-center justify-center`}>
 			<Head>
 				<title>Portfolio - BOUSSELAT Ahmed Moncef (Somnef)</title>
+				<link rel="shortcut icon" href="./images/icon.ico" />
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 			</Head>
 
@@ -120,7 +121,7 @@ function Home(props) {
 					className="w-full flex flex-col items-center mt-14"
 				>
 					<div className="w-[80%] flex flex-col  ml-14">
-						<h1 className="text-4xl font-bold border-b-4 py-3">
+						<h1 className="text-4xl font-bold border-b-4 py-3 mb-3">
 							Professional Experience
 						</h1>
 						<div className="flex flex-col items-center">
@@ -130,6 +131,7 @@ function Home(props) {
 								post="Data Scientist / AI Engineer intern"
 								description="Internship where I worked on understanding how networking occurs in IOT systems,
 											and how we can use deep learning techniques within them to boost efficiency and security."
+								logo="./images/companies/ericsson.webp"
 							/>
 							<ExpericenceComponent
 								period="May 2022 - Jul 2022"
@@ -137,6 +139,7 @@ function Home(props) {
 								post="Jr Consultant / Data Analyst intern"
 								description="Internship where the mission consisted of monitoring the construction materials market in Algeria, 
 											study the price trends and quantities imported/exported over the last decade."
+								logo="./images/companies/bh.webp"
 							/>
 							<ExpericenceComponent
 								period="Dec 2021 - Today"
@@ -144,18 +147,21 @@ function Home(props) {
 								post="Freelancer"
 								description="Studies of startup projects and highlighting the complexity of the technical aspects in which they
 											are trying to innovate."
+								logo="./images/companies/innoprofits.webp"
 							/>
 							<ExpericenceComponent
 								period="Nov 2021 - May 2022"
 								company="AiTech"
 								post="Data Scientist intern"
 								description="Research on processing, cleaning, classifying and detecting outliers in data drawn from the company's ERP."
+								logo="./images/companies/aitech.webp"
 							/>
 							<ExpericenceComponent
 								period="Feb 2021 - Mar 2021"
 								company="CasbahTech"
 								post="Discovery intern"
 								description="Initiation to work in a company, introduction to web development and teamwork with AGILE methodology."
+								logo="./images/companies/casbahtech.webp"
 							/>
 						</div>
 					</div>
