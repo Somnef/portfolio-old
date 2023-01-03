@@ -111,6 +111,18 @@ export const items = [
 		image2: "images/projects/rpg/rpg2.gif",
 		tech: "Unity, C#",
 	},
+
+	{
+		id: 9,
+		title: "Physics Simulation of Planets Movement",
+		type: "Data Science",
+		description:
+			"Just a simple physics system in Unity to simulate the basic laws of gravity attraction, but the result \
+			is quite beautiful and... poetic ?",
+		image: "images/projects/planets/planets.gif",
+		image2: "images/projects/planets/planets2.gif",
+		tech: "Unity, C#",
+	},
 ];
 
 export const openSpring = { type: "spring", stiffness: 200, damping: 30 };
