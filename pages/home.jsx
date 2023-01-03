@@ -469,13 +469,13 @@ function Home(props) {
 					<div className="w-[80%]  ml-14">
 						<div className="flex w-full bg-white h-[3px] "></div>
 
-						<div className="flex flex-row ">
-							<div className="flex flex-col w-6/12">
+						<div className="flex flex-row  ">
+							<div className="flex flex-col w-2/3">
 								<h1 className="text-6xl font-extrabold mt-5 mb-16">
 									Get in touch
 								</h1>
 
-								<div className="flex flex-row gap-4  border-[1px] border-portfolio-light rounded-xl">
+								<div className="flex flex-row gap-4 border-[1px] border-portfolio-light rounded-xl">
 									<div className="flex flex-col gap-7 p-6 ">
 										<img
 											src="./images/icons/email.svg"
@@ -501,7 +501,7 @@ function Home(props) {
 									</div>
 								</div>
 							</div>
-							<div className="w-6/12 contact1">
+							<div className="w-1/2 contact1">
 								<img
 									src="./images/contact.svg"
 									alt="contact"
