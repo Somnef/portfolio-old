@@ -7,7 +7,7 @@ function ExpericenceComponent({ period, company, post, description, logo }) {
 						border-b-[1px] border-b-[#222222] rounded-sm
 						group hover:bg-[rgb(97,132,214)] ease-in-out duration-300">
 
-			<h1 className="w-[20%] text-lg group-hover:-translate-x-2 group-hover:text-xl ease-in-out duration-300">{period}</h1>
+			<h1 className="w-[20%] text-md group-hover:-translate-x-2 group-hover:text-lg ease-in-out duration-300">{period}</h1>
 				
 			<div className="flex flex-col items-center justify-center w-[35%] group-hover:-translate-x-4 ease-in-out duration-300">
 				<div className="flex flex-row items-center justify-center gap-3 mb-2">

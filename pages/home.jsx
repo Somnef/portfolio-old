@@ -79,7 +79,7 @@ function Home(props) {
 				closeModal={closeModal}
 				item={selectedItem}
 			/>
-			<div className="w-[90%]">
+			<div className="w-[85%]">
 				<section className="w-full flex justify-center">
 					<div className="flex flex-row items-center gap-10 mt-52 w-[80%]  ml-14">
 						<img
@@ -118,14 +118,14 @@ function Home(props) {
 				>
 					<div className="flex flex-col mt-5 w-[80%]  ml-14">
 						<h1 className="text-4xl font-bold border-b-4 py-3">Education</h1>
-						<div className="flex flex-row gap-12 mt-10">
+						<div className="flex flex-row items-center justify-center gap-12 mt-10">
 							<PresentationCard
-								title={"Master's Degree in  Industrial Engineering"}
+								title={"Master's Degree in Data Science and AI"}
 								text={"2020-2023\nNational Polytechnic School"}
 							/>
 
 							<PresentationCard
-								title={"Engineering Degree in Data Science and AI"}
+								title={"Indusrtrial Engineering Degree"}
 								text={"2020-2023\nNational Polytechnic School"}
 							/>
 						</div>
@@ -145,7 +145,7 @@ function Home(props) {
 								period="Nov 2022 - Today"
 								company="Ericsson"
 								post="Data Scientist / AI Engineer intern"
-								description="Internship where I worked on understanding how networking occurs in IOT systems,
+								description="Internship where I work on understanding how networking occurs in IOT systems,
 											and how we can use deep learning techniques within them to boost efficiency and security."
 								logo="./images/companies/ericsson.webp"
 							/>
@@ -189,7 +189,7 @@ function Home(props) {
 							Skills & Expertise
 						</h1>
 						<div className="flex flex-row gap-8 mt-5">
-							<div className="w-1/2 h-[40rem] mt-3">
+							<div className="w-[45%] h-[40rem] mt-3">
 								<div
 									className="border-[1px] h-full rounded-2xl overflow-hidden flex flex-col mm hover:bg-[rgb(97,132,214)]"
 									style={{
@@ -203,7 +203,7 @@ function Home(props) {
 									</h1>
 									<h1 className="text-sm text-gray-200 text-justify mt-5 ml-[4rem] w-[75%] z-[2]">
 										Here are the main programming languages I use on a regular basis for my different projects, some I use 
-										when working on data science projects, others in web development or game development:
+										when working on data science projects, others in web or development, or also cybersecurity:
 									</h1>
 
 									<div className="grid w-4/5 grid-cols-2 gap-3 mt-[3rem] mb-10 mx-auto">
@@ -360,75 +360,75 @@ function Home(props) {
 								</div>
 							</div>
 
-							<div className="flex flex-col w-[48%] mt-3 ">
+							<div className="flex flex-col items-center justify-center w-[55%] h-[45rem] mt-3 ">
 								<div
-									className="border-b-[1px] border-t-[1px] rounded-t-lg gap-3 flex flex-col pt-4 pb-7 hover:bg-[rgb(97,132,214)] hover:pt-6 hover:pb-9 duration-300 ease-in-out"
+									className="w-[90%] h-1/5 border-b-[1px] border-t-[1px] rounded-t-lg gap-3 flex flex-col pt-4 pb-7 group hover:bg-[rgb(97,132,214)] hover:w-[100%] duration-300 ease-in-out"
 									style={{ 
 										borderColor: "rgba(74, 100, 160, 1)",
 									}}
 								>
-									<h1 className="text-2xl font-bold ml-5 mr-5">
-										Data analysis
+									<h1 className="text-2xl font-bold ml-5 mr-5 duration-300 ease-in-out">
+										Data Analysis
 									</h1>
-									<p className="text-base text-gray-200 para ml-5 mr-5">
+									<p className="text-base h-3/4 text-gray-200 para ml-5 mr-5 duration-300 ease-in-out">
 										I regularly have to do exploratory data analysis operations in my field of study.
 									</p>
 								</div>
 								
 								<div
-									className="border-b-[1px] gap-3 flex flex-col pt-4 pb-7 hover:bg-[rgb(97,132,214)] hover:pt-6 hover:pb-9 duration-300 ease-in-out "
+									className="w-[90%] h-1/5 border-b-[1px] gap-3 flex flex-col pt-4 pb-7 group hover:bg-[rgb(97,132,214)] hover:w-[100%] duration-300 ease-in-out "
 									style={{ 
 										borderColor: "rgba(74, 100, 160, 1)",
 									}}
 								>
-									<h1 className="text-2xl font-bold ml-5 mr-5 ">
+									<h1 className="text-2xl font-bold ml-5 mr-5 duration-300 ease-in-out">
 										Machine Learning & Deep Learning
 									</h1>
-									<p className="text-base text-gray-200 para ml-5 mr-5 ">
+									<p className="text-base text-gray-200 para ml-5 mr-5 duration-300 ease-in-out">
 										This is an essential part of what I usually do in my field, it includes 
-										classification, computer vision, self-learning agents... etc.
+										classification, computer vision and self-learning agents.
 									</p>
 								</div>
 
 								<div
-									className="border-b-[1px] gap-3 flex flex-col pt-4 pb-7 hover:bg-[rgb(97,132,214)] hover:pt-6 hover:pb-9 duration-300 ease-in-out"
+									className="w-[90%] h-1/5 border-b-[1px] gap-3 flex flex-col pt-4 pb-7 group hover:bg-[rgb(97,132,214)] hover:w-[100%] duration-300 ease-in-out "
 									style={{ 
 										borderColor: "rgba(74, 100, 160, 1)",
 									}}
 								>
-									<h1 className="text-2xl font-bold ml-5 mr-5 ">
+									<h1 className="text-2xl font-bold ml-5 mr-5 duration-300 ease-in-out">
 										Web Development
 									</h1>
-									<p className="text-base text-gray-200 para ml-5 mr-5 ">
+									<p className="text-base text-gray-200 para ml-5 mr-5 duration-300 ease-in-out">
 										I have written many web sites and web apps, including this one, which 
 										I wrote using ReactJs and NextJs!
 									</p>
 								</div>
 
 								<div
-									className="border-b-[1px] gap-3 flex flex-col pt-4 pb-7 hover:bg-[rgb(97,132,214)] hover:pt-6 hover:pb-9 duration-300 ease-in-out"
+									className="w-[90%] h-1/5 border-b-[1px] gap-3 flex flex-col pt-4 pb-7 group hover:bg-[rgb(97,132,214)] hover:w-[100%] duration-300 ease-in-out "
 									style={{ 
 										borderColor: "rgba(74, 100, 160, 1)",
 									}}
 								>
-									<h1 className="text-2xl font-bold ml-5 mr-5 ">
+									<h1 className="text-2xl font-bold ml-5 mr-5 duration-300 ease-in-out">
 										Game Development
 									</h1>
-									<p className="text-base text-gray-200 para ml-5 mr-5 ">
+									<p className="text-base text-gray-200 para ml-5 mr-5 duration-300 ease-in-out">
 										I have a huge passion for video games, which I tend to try and make some of on my free time.
 									</p>
 								</div>
 
 								<div
-									className="border-b-[1px] rounded-b-lg gap-3 flex flex-col pt-4 pb-7 hover:bg-[rgb(97,132,214)] hover:pt-6 hover:pb-9 duration-300 ease-in-out"
+									className="w-[90%] h-1/5 border-b-[1px] rounded-b-lg gap-3 flex flex-col pt-4 pb-7 group hover:bg-[rgb(97,132,214)] hover:w-[100%] duration-300 ease-in-out"
 									style={{ 
 										borderColor: "rgba(74, 100, 160, 1)",
 									}}
 								>
-									<h1 className="text-2xl font-bold ml-5 mr-5 ">
+									<h1 className="text-2xl font-bold ml-5 mr-5 duration-300 ease-in-out">
 										Problem Solving
 									</h1>
-									<p className="text-base text-gray-200 para ml-5 mr-5 ">
+									<p className="text-base text-gray-200 para ml-5 mr-5 duration-300 ease-in-out">
 										My team and colleagues heavily rely on me when it comes to finding solutions and automations 
 										for miscellaneous problems.
 									</p>
@@ -483,10 +483,10 @@ function Home(props) {
 											className=" w-10 h-10 "
 										/>
 										<h1 className="text-base border-b-[1px] border-b-portfolio-light pb-3">
-											ahmed_moncef.bousselat@g.enp.edu.dz
+											a.m.bousselat@gmail.com
 										</h1>
 										<h1 className="text-base border-b-[1px] border-b-portfolio-light pb-3">
-											a.m.bousselat@gmail.com
+											ahmed_moncef.bousselat@g.enp.edu.dz
 										</h1>
 									</div>
 									<div className="flex flex-col gap-7 p-6">
