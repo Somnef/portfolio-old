@@ -191,7 +191,7 @@ function Home(props) {
 						<div className="flex flex-row gap-8 mt-5">
 							<div className="w-[45%] h-[40rem] mt-3">
 								<div
-									className="border-[1px] h-full rounded-2xl overflow-hidden flex flex-col mm hover:bg-[rgb(97,132,214)]"
+									className="border-[1px] h-full rounded-2xl overflow-hidden flex flex-col mm hover:bg-[rgb(97,132,214)] hover:shadow-[0_0_5px_3px_rgba(255,255,255,1)]"
 									style={{
 										borderColor: "rgba(74, 100, 160, 1)",
 										transition: "0.3s ease-in",
@@ -362,12 +362,12 @@ function Home(props) {
 
 							<div className="flex flex-col items-center justify-center w-[55%] h-[45rem] mt-3 ">
 								<div
-									className="w-[90%] h-1/5 border-b-[1px] border-t-[1px] rounded-t-lg gap-3 flex flex-col pt-4 pb-7 group hover:bg-[rgb(97,132,214)] hover:w-[100%] duration-300 ease-in-out"
+									className="w-[90%] h-1/5 border-b-[1px] border-t-[1px] rounded-t-lg gap-3 flex flex-col pt-4 pb-7 group hover:bg-[rgb(97,132,214)] hover:w-[100%] hover:shadow-[0_0_5px_3px_rgba(255,255,255,1)] duration-300 ease-in-out"
 									style={{ 
 										borderColor: "rgba(74, 100, 160, 1)",
 									}}
 								>
-									<h1 className="text-2xl font-bold ml-5 mr-5 duration-300 ease-in-out">
+									<h1 className="text-2xl font-bold ml-5 mr-5t">
 										Data Analysis
 									</h1>
 									<p className="text-base h-3/4 text-gray-200 para ml-5 mr-5 duration-300 ease-in-out">
@@ -376,12 +376,12 @@ function Home(props) {
 								</div>
 								
 								<div
-									className="w-[90%] h-1/5 border-b-[1px] gap-3 flex flex-col pt-4 pb-7 group hover:bg-[rgb(97,132,214)] hover:w-[100%] duration-300 ease-in-out "
+									className="w-[90%] h-1/5 border-b-[1px] gap-3 flex flex-col pt-4 pb-7 group hover:bg-[rgb(97,132,214)] hover:w-[100%] hover:shadow-[0_0_5px_3px_rgba(255,255,255,1)] duration-300 ease-in-out "
 									style={{ 
 										borderColor: "rgba(74, 100, 160, 1)",
 									}}
 								>
-									<h1 className="text-2xl font-bold ml-5 mr-5 duration-300 ease-in-out">
+									<h1 className="text-2xl font-bold ml-5 mr-5">
 										Machine Learning & Deep Learning
 									</h1>
 									<p className="text-base text-gray-200 para ml-5 mr-5 duration-300 ease-in-out">
@@ -391,12 +391,12 @@ function Home(props) {
 								</div>
 
 								<div
-									className="w-[90%] h-1/5 border-b-[1px] gap-3 flex flex-col pt-4 pb-7 group hover:bg-[rgb(97,132,214)] hover:w-[100%] duration-300 ease-in-out "
+									className="w-[90%] h-1/5 border-b-[1px] gap-3 flex flex-col pt-4 pb-7 group hover:bg-[rgb(97,132,214)] hover:w-[100%] hover:shadow-[0_0_5px_3px_rgba(255,255,255,1)] duration-300 ease-in-out "
 									style={{ 
 										borderColor: "rgba(74, 100, 160, 1)",
 									}}
 								>
-									<h1 className="text-2xl font-bold ml-5 mr-5 duration-300 ease-in-out">
+									<h1 className="text-2xl font-bold ml-5 mr-5">
 										Web Development
 									</h1>
 									<p className="text-base text-gray-200 para ml-5 mr-5 duration-300 ease-in-out">
@@ -406,12 +406,12 @@ function Home(props) {
 								</div>
 
 								<div
-									className="w-[90%] h-1/5 border-b-[1px] gap-3 flex flex-col pt-4 pb-7 group hover:bg-[rgb(97,132,214)] hover:w-[100%] duration-300 ease-in-out "
+									className="w-[90%] h-1/5 border-b-[1px] gap-3 flex flex-col pt-4 pb-7 group hover:bg-[rgb(97,132,214)] hover:w-[100%] hover:shadow-[0_0_5px_3px_rgba(255,255,255,1)] duration-300 ease-in-out "
 									style={{ 
 										borderColor: "rgba(74, 100, 160, 1)",
 									}}
 								>
-									<h1 className="text-2xl font-bold ml-5 mr-5 duration-300 ease-in-out">
+									<h1 className="text-2xl font-bold ml-5 mr-5">
 										Game Development
 									</h1>
 									<p className="text-base text-gray-200 para ml-5 mr-5 duration-300 ease-in-out">
@@ -420,12 +420,12 @@ function Home(props) {
 								</div>
 
 								<div
-									className="w-[90%] h-1/5 border-b-[1px] rounded-b-lg gap-3 flex flex-col pt-4 pb-7 group hover:bg-[rgb(97,132,214)] hover:w-[100%] duration-300 ease-in-out"
+									className="w-[90%] h-1/5 border-b-[1px] rounded-b-lg gap-3 flex flex-col pt-4 pb-7 group hover:bg-[rgb(97,132,214)] hover:w-[100%] hover:shadow-[0_0_5px_3px_rgba(255,255,255,1)] duration-300 ease-in-out"
 									style={{ 
 										borderColor: "rgba(74, 100, 160, 1)",
 									}}
 								>
-									<h1 className="text-2xl font-bold ml-5 mr-5 duration-300 ease-in-out">
+									<h1 className="text-2xl font-bold ml-5 mr-5">
 										Problem Solving
 									</h1>
 									<p className="text-base text-gray-200 para ml-5 mr-5 duration-300 ease-in-out">

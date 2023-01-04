@@ -5,7 +5,7 @@ function ExpericenceComponent({ period, company, post, description, logo }) {
 		<div className="flex flex-row items-center 
 						py-6 px-4 w-[100%]
 						border-b-[1px] border-b-[#222222] rounded-sm
-						group hover:bg-[rgb(97,132,214)] ease-in-out duration-300">
+						group hover:bg-[rgb(97,132,214)] hover:shadow-[0_0_5px_3px_rgba(255,255,255,1)] ease-in-out duration-300">
 
 			<h1 className="w-[20%] text-md group-hover:-translate-x-2 group-hover:text-lg ease-in-out duration-300">{period}</h1>
 				
