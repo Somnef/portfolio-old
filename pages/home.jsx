@@ -143,6 +143,7 @@ function Home(props) {
 						<div className="flex flex-col items-center">
 							<ExpericenceComponent
 								period="Nov 2022 - Today"
+								location="Algiers, Algeria"
 								company="Ericsson"
 								post="Data Scientist / AI Engineer intern"
 								description="Internship where I work on understanding how networking occurs in IOT systems,
@@ -151,6 +152,7 @@ function Home(props) {
 							/>
 							<ExpericenceComponent
 								period="May 2022 - Jul 2022"
+								location="Algiers, Algeria"
 								company="BH Advisory"
 								post="Jr Consultant / Data Analyst intern"
 								description="Internship where the mission consisted of monitoring the construction materials market in Algeria, 
@@ -159,6 +161,7 @@ function Home(props) {
 							/>
 							<ExpericenceComponent
 								period="Dec 2021 - Today"
+								location="Montréal, Québec (Remote)"
 								company="Innoprofits"
 								post="Freelancer"
 								description="Studies of startup projects and highlighting the complexity of the technical aspects in which they
@@ -167,6 +170,7 @@ function Home(props) {
 							/>
 							<ExpericenceComponent
 								period="Nov 2021 - May 2022"
+								location="Algiers, Algeria"
 								company="AiTech"
 								post="Data Scientist intern"
 								description="Research on processing, cleaning, classifying and detecting outliers in data drawn from the company's ERP."
@@ -174,6 +178,7 @@ function Home(props) {
 							/>
 							<ExpericenceComponent
 								period="Feb 2021 - Mar 2021"
+								location="Algiers, Algeria"
 								company="CasbahTech"
 								post="Discovery intern"
 								description="Initiation to work in a company, introduction to web development and teamwork with AGILE methodology."
@@ -198,10 +203,10 @@ function Home(props) {
 									}}
 								>
 									<img src="./images/laptop.svg" alt="sqdsqd" className=" ss z-[1] opacity-50" />
-									<h1 className="text-3xl mt-20 ml-14 font-bold z-[2]">
+									<h1 className="text-3xl mt-20 ml-6 font-bold z-[2]">
 										Programming Languages
 									</h1>
-									<h1 className="text-sm text-gray-200 text-justify mt-5 ml-[4rem] w-[75%] z-[2]">
+									<h1 className="text-sm text-gray-200 text-justify mt-3 ml-8 w-[75%] z-[2]">
 										Here are the main programming languages I use on a regular basis for my different projects, some I use 
 										when working on data science projects, others in web or development, or also cybersecurity:
 									</h1>
