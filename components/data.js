@@ -79,10 +79,10 @@ export const items = [
 		title: "Dynamic market simulation",
 		type: "Data Science",
 		description:
-			"This is a project I developed in the context of my Ericsson internship, it consisted of designing the structure\
-			of a convolutional neural network that acts as an autoencoder at the same time, and the decoder part is also trained on\
-			removing noise from input data.",
-		repo: "https://github.com/annis-souames/bg-app/tree/new",
+			"Development of a software simulating a competitive market where teams representing\
+			companies compete in production and sells of different products for the second edition of the IEC\
+			Business Game event..",
+		repo: "",
 		image: "images/projects/bg/bg.webp",
 		image2: "images/projects/bg/bg2.webp",
 		tech: "Laravel, VueJs, SocketIO",
