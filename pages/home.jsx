@@ -471,7 +471,7 @@ function Home(props) {
 						<p className="text-5xl text-center font-bold mb-12">
 							...and many more on my {' '}
 							<a 
-								href="https://github.com/Somnef" target="_blank"
+								href="https://github.com/Somnef" target="_blank" rel="noreferrer"
 								className="text-blue-500 underline decoration-2 hover:text-blue-400 ease-in-out duration-300"
 							>
 								GitHub
