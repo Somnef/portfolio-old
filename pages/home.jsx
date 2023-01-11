@@ -467,6 +467,17 @@ function Home(props) {
 								/>
 							))}
 						</div>
+
+						<p className="text-5xl text-center font-bold mb-12">
+							...and many more on my {' '}
+							<a 
+								href="https://github.com/Somnef" target="_blank"
+								className="text-blue-500 underline decoration-2 hover:text-blue-400 ease-in-out duration-300"
+							>
+								GitHub
+							</a>
+							!
+						</p>
 					</div>
 				</section>
 
