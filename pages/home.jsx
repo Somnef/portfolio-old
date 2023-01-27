@@ -142,7 +142,7 @@ function Home(props) {
 						</h1>
 						<div className="flex flex-col items-center">
 							<ExpericenceComponent
-								period="Nov 2022 - Today"
+								period="Nov 2022 - Jan 2023"
 								location="Algiers, Algeria"
 								company="Ericsson"
 								post="Data Scientist / AI Engineer intern"
