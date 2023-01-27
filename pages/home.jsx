@@ -146,7 +146,7 @@ function Home(props) {
 								location="Algiers, Algeria"
 								company="Ericsson"
 								post="Data Scientist / AI Engineer intern"
-								description="Internship where I work on understanding how networking occurs in IOT systems,
+								description="Internship where I work on understanding how networking occurs in IoT systems,
 											and how we can use deep learning techniques within them to boost efficiency and security."
 								logo="./images/companies/ericsson.webp"
 							/>
