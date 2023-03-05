@@ -142,6 +142,16 @@ function Home(props) {
 						</h1>
 						<div className="flex flex-col items-center">
 							<ExpericenceComponent
+								period="Feb 2023 - Today"
+								location="Algiers, Algeria"
+								company="Shlumberger"
+								post="Supply Chain / Blockchain development intern"
+								description="End of studies internship where I work on developping a blockchain solution for supply chain
+											problems in the oil & gas industry, more specifically, the solution aims to tackle the import/export 
+											field."
+								logo="./images/companies/slb.webp"
+							/>
+							<ExpericenceComponent
 								period="Nov 2022 - Jan 2023"
 								location="Algiers, Algeria"
 								company="Ericsson"

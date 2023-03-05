@@ -22,7 +22,7 @@ function ExpericenceComponent({ period, location, company, post, description, lo
 					<h1 className="text-2xl group-hover:text-3xl ease-in-out duration-300">{company}</h1>
 				</div>
 
-				<h2 className="text-portfolio-light text-lg group-hover:text-gray-200 group-hover:translate-y-2 ease-in-out duration-300">
+				<h2 className="w-[90%] text-portfolio-light text-center text-lg group-hover:text-gray-200 group-hover:translate-y-2 ease-in-out duration-300">
 					{post}
 				</h2>
 			</div>
