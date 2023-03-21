@@ -7,7 +7,7 @@ function PresentationCard(props) {
                 {props.title}
                 <div className="flex w-[80%] h-[1px] bg-portfolio-light my-3 group-hover:bg-white duration-300 ease-in-out"></div>
             </h1>
-            <p className="text-gray-400 text-lg group-hover:text-gray-200 duration-300 ease-in-out" style={{ "white-space": "pre-wrap" }}>
+            <p className="text-gray-400 text-lg group-hover:text-gray-200 duration-300 ease-in-out" style={{ "whiteSpace": "pre-wrap" }}>
                 {props.text}
             </p>
         </div>
