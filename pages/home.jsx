@@ -144,9 +144,9 @@ function Home(props) {
 							<ExpericenceComponent
 								period="Feb 2023 - Today"
 								location="Algiers, Algeria"
-								company="Shlumberger"
+								company="Schlumberger"
 								post="Supply Chain / Blockchain development intern"
-								description="End of studies internship where I work on developping a blockchain solution for supply chain
+								description="End of studies internship where I work on developing a blockchain solution for supply chain
 											problems in the oil & gas industry, more specifically, the solution aims to tackle the import/export 
 											field."
 								logo="./images/companies/slb.webp"
